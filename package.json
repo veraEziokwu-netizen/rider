@@ -6,7 +6,7 @@
   },
   "description": "DispatchNG — Real-time Logistics Matching System (Caritas University FYP)",
   "scripts": {
-    "install:all": "cd backend && npm install && cd ../frontend && npm install --include=dev",
+    "install:all": "cd backend && npm install --build-from-source=sqlite3 && cd ../frontend && npm install --include=dev",
     "dev:backend": "cd backend && npm run dev",
     "dev:frontend": "cd frontend && npm run dev",
     "build": "cd frontend && npm run build",
