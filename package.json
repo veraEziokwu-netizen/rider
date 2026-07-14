@@ -1,6 +1,9 @@
 {
   "name": "dispatch-ng",
   "version": "1.0.0",
+  "engines": {
+    "node": "20.x"
+  },
   "description": "DispatchNG — Real-time Logistics Matching System (Caritas University FYP)",
   "scripts": {
     "install:all": "cd backend && npm install && cd ../frontend && npm install --include=dev",
